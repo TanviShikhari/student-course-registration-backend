@@ -29,9 +29,9 @@ mongoose
 // ================= ROUTES =================
 
 // Default route → login page
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "../frontend/sign-up.html"));
-});
+//app.get("/", (req, res) => {
+ // res.sendFile(path.join(__dirname, "../frontend/sign-up.html"));
+//});
 
 // ================= REGISTER =================
 app.post("/api/register", async (req, res) => {
